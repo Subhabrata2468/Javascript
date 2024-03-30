@@ -1,0 +1,1 @@
+console.log("devil")  // always shows the output
