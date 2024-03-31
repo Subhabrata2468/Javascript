@@ -25,11 +25,11 @@ console.log(typeof undefined) // undifined
 console.log(typeof null) //object
 
 
-//Primitive
+//Primitive -stackmemory (gives the copy)
 
 // 7 types -:: String,Number ,Boolean ,null ,undifined ,Symbol , BigInt
 
-//Non-Primitives
+//Non-Primitives (Heap memory)(create the reference)
 // Arrays , Objects,Functions
 
 const heros= ["IronMan","Batman","Spiderman"]
