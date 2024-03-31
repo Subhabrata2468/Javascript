@@ -23,3 +23,25 @@ let bool = true // boolean
 console.log(typeof "Yono") //string
 console.log(typeof undefined) // undifined
 console.log(typeof null) //object
+
+
+//Primitive
+
+// 7 types -:: String,Number ,Boolean ,null ,undifined ,Symbol , BigInt
+
+//Non-Primitives
+// Arrays , Objects,Functions
+
+const heros= ["IronMan","Batman","Spiderman"]
+let data ={
+    name: "Asta",
+    old: 17,
+    world: "Fantacy",
+    manga: "Black Clover",
+}
+
+const myFunction = function(){   //function stored in variable myFunction
+    console.log("DEvil")
+}
+
+console.log(myFunction)
